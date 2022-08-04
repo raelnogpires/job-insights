@@ -61,6 +61,7 @@ def get_max_salary(path):
     salaries = []
     jobs = read(path)
     for job in jobs:
+        # https://www.w3schools.com/python/ref_string_isnumeric.asp
         if job["max_salary"].isnumeric():
             salaries.append(int(job["max_salary"]))
 
