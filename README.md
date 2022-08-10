@@ -1,5 +1,4 @@
 # Job Insights
-
 Projeto desenvolvido no bloco 33 da **Trybe** com objetivo de praticar e consolidar conhecimentos em Python.
 
 ## Habilidades desenvolvidas
@@ -38,14 +37,14 @@ Será necessário ter instalado as tecnologias [Docker](https://docs.docker.com/
 
 4. Execute o docker-compose:
 ```sh
- docker-compose up
+ docker-compose up -d
 ```  
 
 Ela estará disponível em `http://localhost:5000` .
 
 Para executar os testes, execute:
 ```sh
- docker-compose run python3 -m pytest
+ docker exec -it job-insights_web_1 python3 -m pytest
 ```
 
 Para parar a aplicação, execute:
