@@ -10,6 +10,7 @@ Projeto desenvolvido no bloco 33 da **Trybe** com objetivo de praticar e consoli
 * Escrita de testes unitários usando Pytest.
 * Criação e importação de módulos.
 * Implementação de features e testes dentro de um projeto já existente.
+* Implementação de uma nova rota sem experiência prévia em Flask.
 
 ## Arquivos
 Funções e testes foram implementados, respectivamente, nos seguintes arquivos:
