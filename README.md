@@ -16,6 +16,9 @@ Funções e testes foram implementados, respectivamente, nos seguintes arquivos:
 * `src/insights.py`
 * `src/jobs.py`
 * `src/routes_and_views.py` - `def job(index)`
+* `tests/brazilian/test_brazilian_jobs.py`
+* `tests/counter/test_counter.py`
+* `tests/sorting/test_sorting.py`
 
 Outros arquivos presentes nesse projeto foram implementados pelo time da Trybe.
 
