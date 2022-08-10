@@ -1,6 +1,6 @@
 from src.brazilian_jobs import read_brazilian_file
 
-path = "tests/mocks/brazilians_jobs.csv"
+path = "tests/brazilian/brazilians_jobs_mock.csv"
 
 
 def test_brazilian_jobs():
